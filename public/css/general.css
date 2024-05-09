@@ -1,0 +1,51 @@
+/* colores que se usan en las mayorias de cosas, entonces se crea esta variable */
+:root{
+    --color-pricipal: #1e9b02;
+    --color-white: #ffffff;
+    --color-gray: gray;
+    --color-gray-light: #eeeeee;
+    --color-red: red;
+    --font-size-large: 20px;
+    --font-size-medium: 16px;
+    --font-size-small: 12px;
+  }
+  
+  /*tipo de fuente de la letra*/
+  body{
+    /* font-family: 'Poppins', sans-serif !important; */
+  }
+  
+  .color-principal {color : var(--color-pricipal) !important}
+  .color-white {color : var(--color-white) !important}
+  .bg-white {background: var(--color-white) !important}
+  
+  
+  /*configuracion de botones y colores de botones*/
+  .btn{
+    margin-right: ; 
+    margin-bottom: 10%;
+    border-radius: 1rem;
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    padding-inline: 2rem;
+    position: fixed;
+   
+  }
+  
+  .btn-primary{
+    background: var(--color-pricipal);
+    color: var(--color-white);
+    border-color: var(--color-pricipal);
+  }
+  
+  .btn:hover, .btn:focus{
+    background: var(--color-gray-light);
+    color: var(--color-pricipal);
+    border-color: var(--color-gray-light);
+  }
+  
+  .btn-danger{
+    background: var(--color-red);
+    color: var(--color-white);
+    border-color: var(--color-red);
+  }

@@ -1,0 +1,14 @@
+.step-wrapper{
+    align-items:center;
+    background-color: transparent;
+    color:#000000;
+    display:grid;
+    font-weight: 100;
+    gap:20px;
+    grid-area:auto;
+    grid-template-columns:   62px 221px;
+    grid-template-rows:    62px;
+    line-height:    18.4px;
+    padding:    20px 30px 20px 40px;
+            
+}
